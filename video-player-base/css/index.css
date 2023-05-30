@@ -1,0 +1,18 @@
+@import './button.css';
+
+:root {
+  --Primary: #43DDE6;
+  --White: #ffffff;  
+}
+
+
+body{
+  background-color: var(--Primary);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+
+}
+
+h1{
+  color: var(--White)
+}
