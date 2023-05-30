@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,27 @@
   <link rel="stylesheet" href="./css/index.css">
   <title>Video Player</title>
 </head>
+
 <body>
-  <h1>lato</h1>
-  <button class="button" id="play"></button>
-  <button class="button" id="pause"></button>
-  <button class="button" id="backward"></button>
-  <button class="button" id="forward"></button>
-  <video id="video" controls poster="./design/desktop-player.jpg" src="https://media.w3.org/2010/05/sintel/trailer.mp4"></video>
+  <div class="wrapper">
+    <div class="player">
+      <video id="video" src="https://media.w3.org/2010/05/sintel/trailer.mp4"></video>
+      <h2 class="player-title">Musica para programar</h2>
+      <div class="player-actions">
+        <button class="button" id="backward" aria-label="Retroceder 5 segundos" title="Retroceder 5 segundos"></button>
+        <button class="button" id="play" aria-label="Reproducir" title="Reproducir"></button>
+        <button class="button" id="pause" aria-label="Pausa" title="Pausa"></button>
+        <button class="button" id="forward" aria-label="Avanzar 5 segundos" title="Avanzar 5 segundos"></button>
+      </div>
+      <div class="player-progress">
+        <input type="range" name="" id="progress">
+      </div>
+      
+    </div>
+  </div>
+
+
 </body>
 <script src="./index.js"></script>
+
 </html>

@@ -4,6 +4,8 @@ console.log("linkeado");
 const $video = document.querySelector('#video');
 const $play = document.querySelector('#play');
 const $pause = document.querySelector('#pause');
+const $progress = document.querySelector('#progress');
+$pause.hidden = true;
 
 //Adelantar y Atrasar 5 segundos
 const $backward = document.querySelector('#backward');
